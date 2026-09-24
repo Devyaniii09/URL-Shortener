@@ -8,8 +8,7 @@ The project is designed in two phases to demonstrate clean architecture, caching
 - **Java 17** + **Spring Boot 4**
 - **PostgreSQL 18** - primary data store
 - **Redis 7** - cache layer and rate limiting
-- **Hibernate / Spring Data JPA** - ORM and repository layer
-- **Lettuce** - Redis client (via Spring Data Redis)
+- **Hibernate / Spring Data JPA** 
 - **Docker** - containerized Postgres and Redis
 
 ---
