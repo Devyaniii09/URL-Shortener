@@ -173,7 +173,7 @@ CREATE INDEX idx_click_event_clicked_at ON click_event(clicked_at);
 
 
 
-## Key Engineering Decisions
+## Key Decisions
 
 **Cache-aside over write-through** - explicit per-URL TTL control. URLs with `expiresAt` get a Redis TTL matching their expiry exactly. URLs without expiry get a 24-hour default TTL.
 
